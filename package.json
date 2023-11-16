@@ -1,0 +1,23 @@
+{
+  "name": "Seon.io Free Trial Data lookup for Daily 5 request",
+  "version": "1.0.0",
+  "description": "",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "npm run build && node ./prod"
+  },
+  "author": "Kardespro",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+}
